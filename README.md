@@ -51,17 +51,17 @@ endmodule
 
 
 **RTL realization**
+<img width="639" height="490" alt="Screenshot 2026-05-21 133346" src="https://github.com/user-attachments/assets/41ff41da-2784-4c0e-bb90-7fe4e3826dd7" />
+
 
 **Output:**
 
 **RTL**
-<img width="639" height="490" alt="Screenshot 2026-05-21 133346" src="https://github.com/user-attachments/assets/41ff41da-2784-4c0e-bb90-7fe4e3826dd7" />
-
-
-
-**Result:**
 <img width="885" height="553" alt="Screenshot 2026-05-21 133722" src="https://github.com/user-attachments/assets/8d9741d4-adb8-49e7-bb3f-381ca5bd13fe" />
 
 
+**Timing**
+
+**Result:**
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
