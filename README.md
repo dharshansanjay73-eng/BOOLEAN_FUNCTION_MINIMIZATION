@@ -38,10 +38,15 @@ Hardware – PCs, Cyclone II , USB flasher
 Developed by: RegisterNumber:*/
 
 module de2(a,b,c,d,w,x,y,z,f1,f2);
+
 input a,b,c,d,w,x,y,z;
+
 output f1,f2;
+
 assign f1 = ~b&~d | a&b&~c | ~a&b&d;
+
 assign f2 = ~y&z | x&y | w&y;
+
 endmodule
 
 
@@ -53,7 +58,6 @@ endmodule
 <img width="639" height="490" alt="Screenshot 2026-05-21 133346" src="https://github.com/user-attachments/assets/41ff41da-2784-4c0e-bb90-7fe4e3826dd7" />
 
 
-**Timing Diagram**
 
 **Result:**
 <img width="885" height="553" alt="Screenshot 2026-05-21 133722" src="https://github.com/user-attachments/assets/8d9741d4-adb8-49e7-bb3f-381ca5bd13fe" />
